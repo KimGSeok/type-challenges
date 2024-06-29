@@ -2,7 +2,7 @@ name: Update README with PRs and Issues
 
 on:
   issues:
-    types: [opened, edited, closed]
+    types: [opened]
   pull_request:
     types: [opened, edited, closed]
 
