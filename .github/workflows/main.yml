@@ -40,4 +40,9 @@ jobs:
           git config --global user.email 'rla99tjr@gmail.com'
           git add README.md
           git commit -m "Update README with latest PRs and Issues"
-          git push
+
+      - name: Push changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.PAT }}
+        run: |
+          git push https://${GITHUB_ACTOR}:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
