@@ -11,9 +11,18 @@ assignees: ''
 It is an issue for studying type script, and each issue means a problem.
 
 ## Type Challenges
+```
+
+```
 
 ## Your Code Here
+```
+
+```
 
 ## Test Cases
+```
+
+```
 
 ## Assigners Description
