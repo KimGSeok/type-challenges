@@ -45,4 +45,5 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.PAT }}
         run: |
-          git push https://${GITHUB_ACTOR}:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
+          git remote set-url origin https://${{ secrets.PAT }}@github.com/${{ github.repository }}.git
+          git push origin main
