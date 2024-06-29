@@ -1,3 +1,4 @@
+- [#44](https://github.com/KimGSeok/type-challenges/issues/44): TEST
 # type-challenges
 study to typescript by type-challenges
 
