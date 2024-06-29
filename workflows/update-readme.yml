@@ -2,10 +2,8 @@ name: Update README with PRs and Issues
 
 on:
   issues:
-    branches: [main]
     types: [opened, edited, closed]
   pull_request:
-    branches: [main]
     types: [opened, edited, closed]
 
 jobs:
