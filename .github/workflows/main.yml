@@ -29,12 +29,10 @@ jobs:
           echo "::set-output name=number::$(gh issue view ${{ github.event.issue.number }} --json number --jq .number)"
           echo "::set-output name=title::$(gh issue view ${{ github.event.issue.number }} --json title --jq .title)"
           echo "::set-output name=url::$(gh issue view ${{ github.event.issue.number }} --json url --jq .url)"
-
+          
       - name: Update README with new issue
         run: |
-          echo "- [#${{ steps.issue.outputs.number }}](${{ steps.issue.outputs.url }}): ${{ steps.issue.outputs.title }}" >> NEW_ISSUE.md
-          cat README.md >> NEW_ISSUE.md
-          mv NEW_ISSUE.md README.md
+          echo "- [#${{ steps.issue.outputs.number }}](${{ steps.issue.outputs.url }}): ${{ steps.issue.outputs.title }}" >> README.md
 
       - name: Commit changes
         env:
