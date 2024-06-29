@@ -10,25 +10,10 @@ assignees: ''
 ## Description
 It is an issue for studying type script, and each issue means a problem.
 
-/* _____________ Type Challenges _____________ */
+## Type Challenges
 
-###type HelloWorld = any // expected to be a string
+## Your Code Here
 
-/* _____________ Your Code Here _____________ */
+## Test Cases
 
-##
-
-/* _____________ Test Cases _____________ */
-import type { Equal, Expect, NotAny } from '@type-challenges/utils'
-
-type cases = [
-  Expect<NotAny<HelloWorld>>,
-  Expect<Equal<HelloWorld, string>>,
-]
-
-/* _____________ Type Problem _____________ */
-
-- [ ] Self Solve
-- [ ] Use Solution
-
-- Related to: https://github.com/type-challenges/type-challenges
+## Assigners Description
