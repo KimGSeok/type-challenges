@@ -42,4 +42,5 @@ jobs:
           git config --global user.email 'rla99tjr@gmail.com'
           git add README.md
           git commit -m "Update README with new issue #${{ steps.issue.outputs.number }}"
+          git pull origin main
           git push origin main
