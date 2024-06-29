@@ -23,26 +23,25 @@ jobs:
       - name: Authenticate GitHub CLI
         run: gh auth login --with-token <<< "${{ secrets.GH_TOKEN }}"
 
-      - name: Get PRs and Issues
+      - name: Get the new issue
+        id: issue
         run: |
-          echo "## Pull Requests" > pr_issue_list.md
-          gh pr list --limit 5 --json number,title,url --template '{{range .}}- [#{{.number}}]({{.url}}): {{.title}}\n{{end}}' >> pr_issue_list.md
-          echo "\n## Issues" >> pr_issue_list.md
-          gh issue list --limit 5 --json number,title,url --template '{{range .}}- [#{{.number}}]({{.url}}): {{.title}}\n{{end}}' >> pr_issue_list.md
+          echo "::set-output name=number::$(gh issue view ${{ github.event.issue.number }} --json number --jq .number)"
+          echo "::set-output name=title::$(gh issue view ${{ github.event.issue.number }} --json title --jq .title)"
+          echo "::set-output name=url::$(gh issue view ${{ github.event.issue.number }} --json url --jq .url)"
 
-      - name: Update README
+      - name: Update README with new issue
         run: |
-          cat pr_issue_list.md >> README.md
+          echo "- [#${{ steps.issue.outputs.number }}](${{ steps.issue.outputs.url }}): ${{ steps.issue.outputs.title }}" >> NEW_ISSUE.md
+          cat README.md >> NEW_ISSUE.md
+          mv NEW_ISSUE.md README.md
 
       - name: Commit changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.PAT }}
         run: |
           git config --global user.name 'KimGSeok'
           git config --global user.email 'rla99tjr@gmail.com'
           git add README.md
-          git commit -m "Update README with latest PRs and Issues"
-
-      - name: Push changes
-        env:
-          GITHUB_TOKEN: ${{ secrets.PAT }}
-        run: |
+          git commit -m "Update README with new issue #${{ steps.issue.outputs.number }}"
           git push origin main
