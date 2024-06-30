@@ -11,3 +11,4 @@ link: https://github.com/type-challenges/type-challenges
 - [#53](https://github.com/KimGSeok/type-challenges/issues/53): [Problem] - [00018-easy-tuple-length]
 - [#54](https://github.com/KimGSeok/type-challenges/issues/54): [Problem] - [00043-easy-exclude]
 - [#55](https://github.com/KimGSeok/type-challenges/issues/55): [Problem] - [00189-easy-awaited]
+- [#56](https://github.com/KimGSeok/type-challenges/issues/56): [Problem] - [00268-easy-if]
