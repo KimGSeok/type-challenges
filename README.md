@@ -8,3 +8,4 @@ link: https://github.com/type-challenges/type-challenges
 - [#50](https://github.com/KimGSeok/type-challenges/issues/50): [Problem] - [00007-easy-readonly]
 - [#51](https://github.com/KimGSeok/type-challenges/issues/51): [Problem] - [00011-easy-tuple-to-object]
 - [#52](https://github.com/KimGSeok/type-challenges/issues/52): [Problem] - [00014-easy-first]
+- [#53](https://github.com/KimGSeok/type-challenges/issues/53): [Problem] - [00018-easy-tuple-length]
