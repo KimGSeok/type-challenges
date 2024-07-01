@@ -13,3 +13,4 @@ link: https://github.com/type-challenges/type-challenges
 - [#55](https://github.com/KimGSeok/type-challenges/issues/55): [Problem] - [00189-easy-awaited]
 - [#56](https://github.com/KimGSeok/type-challenges/issues/56): [Problem] - [00268-easy-if]
 - [#57](https://github.com/KimGSeok/type-challenges/issues/57): [Problem] - [00533-easy-concat]
+- [#58](https://github.com/KimGSeok/type-challenges/issues/58): [Problem] - [00898-easy-includes]
