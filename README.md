@@ -16,3 +16,4 @@ link: https://github.com/type-challenges/type-challenges
 - [#58](https://github.com/KimGSeok/type-challenges/issues/58): [Problem] - [00898-easy-includes]
 - [#59](https://github.com/KimGSeok/type-challenges/issues/59): [Problem] - [03057-easy-push]
 - [#60](https://github.com/KimGSeok/type-challenges/issues/60): [Problem] - [03060-easy-unshift]
+- [#61](https://github.com/KimGSeok/type-challenges/issues/61): [Problem] - [03312-easy-parameters]
