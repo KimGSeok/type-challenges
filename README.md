@@ -18,3 +18,4 @@ link: https://github.com/type-challenges/type-challenges
 - [#60](https://github.com/KimGSeok/type-challenges/issues/60): [Problem] - [03060-easy-unshift]
 - [#61](https://github.com/KimGSeok/type-challenges/issues/61): [Problem] - [03312-easy-parameters]
 - [#62](https://github.com/KimGSeok/type-challenges/issues/62): [Problem] - [00002-medium-return-type]
+- [#63](https://github.com/KimGSeok/type-challenges/issues/63): [Problem] - [00003-medium-omit]
