@@ -20,3 +20,4 @@ link: https://github.com/type-challenges/type-challenges
 - [#62](https://github.com/KimGSeok/type-challenges/issues/62): [Problem] - [00002-medium-return-type]
 - [#63](https://github.com/KimGSeok/type-challenges/issues/63): [Problem] - [00003-medium-omit]
 - [#64](https://github.com/KimGSeok/type-challenges/issues/64): [Problem] - [00008-medium-readonly-2]
+- [#65](https://github.com/KimGSeok/type-challenges/issues/65): [Problem] - [00009-medium-deep-readonly]
