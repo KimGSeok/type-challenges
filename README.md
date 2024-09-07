@@ -23,3 +23,4 @@ link: https://github.com/type-challenges/type-challenges
 - [#65](https://github.com/KimGSeok/type-challenges/issues/65): [Problem] - [00009-medium-deep-readonly]
 - [#66](https://github.com/KimGSeok/type-challenges/issues/66): [Problem] - [00010-medium-tuple-to-union]
 - [#67](https://github.com/KimGSeok/type-challenges/issues/67): [Problem] - [00012-medium-chainable-options]
+- [#68](https://github.com/KimGSeok/type-challenges/issues/68): [Problem] - [00015-medium-last]
