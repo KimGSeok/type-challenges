@@ -26,3 +26,4 @@ link: https://github.com/type-challenges/type-challenges
 - [#68](https://github.com/KimGSeok/type-challenges/issues/68): [Problem] - [00015-medium-last]
 - [#69](https://github.com/KimGSeok/type-challenges/issues/69): [Problem] - [00016-medium-pop]
 - [#70](https://github.com/KimGSeok/type-challenges/issues/70): [Problem] - [00020-medium-promise-all]
+- [#71](https://github.com/KimGSeok/type-challenges/issues/71): [Problem] - [00062-medium-type-lookup]
