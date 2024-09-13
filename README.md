@@ -30,3 +30,4 @@ link: https://github.com/type-challenges/type-challenges
 - [#72](https://github.com/KimGSeok/type-challenges/issues/72): [Problem] - [00106-medium-trimleft]
 - [#73](https://github.com/KimGSeok/type-challenges/issues/73): [Problem] - [00108-medium-trim]
 - [#74](https://github.com/KimGSeok/type-challenges/issues/74): [Problem] - [00110-medium-capitalize]
+- [#75](https://github.com/KimGSeok/type-challenges/issues/75): [Problem] - [00116-medium-replace]
