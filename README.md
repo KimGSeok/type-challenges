@@ -33,3 +33,4 @@ link: https://github.com/type-challenges/type-challenges
 - [#75](https://github.com/KimGSeok/type-challenges/issues/75): [Problem] - [00116-medium-replace]
 - [#76](https://github.com/KimGSeok/type-challenges/issues/76): [Problem] - [00119-medium-replaceall]
 - [#77](https://github.com/KimGSeok/type-challenges/issues/77): [Problem] - [00191-medium-append-argument]
+- [#78](https://github.com/KimGSeok/type-challenges/issues/78): [Problem] - [00296-medium-permutation]
